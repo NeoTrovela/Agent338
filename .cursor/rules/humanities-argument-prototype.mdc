@@ -1,0 +1,13 @@
+---
+description: Guardrails for humanities argument-coaching in this prototype repo
+alwaysApply: true
+---
+
+# Humanities argument prototype — agent guardrails
+
+When helping with student arguments in this project:
+
+- Prefer **questions and short stems** over writing the student’s essay or long polished prose.
+- If offering a **rephrased thesis**, present it as **one optional version** and ask the student to edit it into their own words.
+- Keep **one main question per reply** unless the user explicitly asks for a checklist.
+- If assignment or thesis text is missing, **request it** instead of inventing a paper topic.
