@@ -1,29 +1,35 @@
-# Examples — base argument conversation
+# Examples — narrowing a broad humanities idea
 
 ## How the student might open
 
-- “Let’s stress-test my thesis for this history paper.”
-- “I have a vague argument—can we talk through the base claim?”
-- “Here’s my assignment and my one-sentence thesis: …”
+- “My topic is huge—I need to narrow it down.”
+- “I want to write about [X] but it’s too broad.”
+- “Here’s my assignment; I only have a vague idea: …”
+- “My thesis tries to say everything. Help me focus.”
 
-## Sample agent opening (after inputs)
+## Turn 1 — mirror breadth (sample agent move)
 
-“Thanks for the assignment and thesis. I’ll reflect it back, then we’ll tighten scope. Here’s my read: [one sentence]. Is that accurate, or what would you change?”
+“You’re touching [A], [B], and [C]. Those could be three different papers. What feels most urgent to you right now—or what did the prompt push you toward?”
 
-## Weak thesis — typical turn 1 follow-up
+## Turn 2 — student-generated angles
 
-“The claim covers a lot of ground. If you only had **one** paragraph of evidence, what **smaller** claim could you still defend?”
+“Before I suggest anything: name **two** smaller papers you *could* write under this umbrella. Then pick one for this assignment.”
 
-## Strong thesis, thin evidence — typical turn 4
+## Turn 3 — fences
 
-“I’ll steel-man the objection: [counter]. Where in your sources could you point a reader who doubts you—not just assert, but **show**?”
+“What years and place are we in? Which texts or bodies of evidence are *in* bounds? What will you explicitly **not** try to settle in eight pages?”
+
+## Turn 4 — book test
+
+“If a historian wrote a 300-page book on your current claim, could they still dodge your exact point? If yes, what smaller fight do you want to pick?”
 
 ## Exit recap (illustrative)
 
 ```markdown
-## Argument conversation — recap
-- **Thesis (student’s direction):** Argue X about Y in period Z, with emphasis on [mechanism / actor / text].
-- **Top revision priority:** Narrow from “all of society” to [specific group or site].
-- **Evidence / reading next step:** Pull one primary passage that shows [phenomenon]; pair with one historian who disagrees.
-- **Optional next session:** Map each body paragraph to one premise and one objection.
+## Narrowing conversation — recap
+- **Starting idea (broad):** “Culture and politics in the interwar period.”
+- **Narrowed claim (student-owned):** How **one newspaper** framed labor unrest in **City X** during **1923–1925**, and what that shows about middle-class fear.
+- **Scope fences (what’s in / what’s out):** In: editorials + reporting in [paper], local archives cited in assignment. Out: national party politics, visual culture, full labor history.
+- **Why this fits the assignment length:** One corpus + short window = doable close reading in page limit.
+- **Next step (one concrete task):** Pull 4–6 articles from [dates]; tag recurring phrases; draft one paragraph on a single recurring frame.
 ```

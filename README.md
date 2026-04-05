@@ -1,12 +1,12 @@
-# Agent338 — Humanities base argument prototype
+# Agent338 — Humanities narrowing prototype
 
-This repository holds a **Cursor Agent + Skill** prototype for a structured conversation about a student’s **base argument** (thesis, scope, objections, evidence) in humanities writing.
+This repository holds a **Cursor Agent + Skill** prototype whose **main job** is to help students **narrow an overly broad humanities idea** into a **scoped, defensible claim** (clear time, place, text, actors, or mechanism)—before or instead of a full “stress-test every part of the argument” workshop.
 
 ## What’s in the repo
 
 | Item | Purpose |
 |------|--------|
-| `.cursor/skills/base-argument-conversation/SKILL.md` | Main skill: when to run it, conversation flow, recap format |
+| `.cursor/skills/base-argument-conversation/SKILL.md` | Main skill: **narrowing-led** dialogue, recap format (`## Narrowing conversation — recap`) |
 | `.cursor/skills/base-argument-conversation/examples.md` | Sample prompts and an illustrative exit recap |
 | `.cursor/rules/humanities-argument-prototype.mdc` | Always-on guardrails (Socratic coaching, no full-essay drafting) |
 
@@ -24,18 +24,18 @@ This repository holds a **Cursor Agent + Skill** prototype for a structured conv
    Open the Agent (Composer) panel—not Ask mode—so the agent can follow project context, skills, and rules.
 
 3. **Trigger the behavior**  
-   Say that you want to work on your **argument**, **thesis**, or **base claim**, for example:
-   - “Let’s stress-test my base argument for this paper.”
-   - “I want a Socratic conversation about my thesis before I draft.”
+   Phrases that match this skill’s **primary** purpose (narrowing):
+   - “My topic / thesis is too broad—help me narrow it.”
+   - “I have a vague idea; I need a focused claim for this assignment.”
+   - “I’m trying to say too much at once; help me pick one thread.”
 
    Paste what you have, ideally in one message:
    - Assignment prompt (and genre/length if relevant)
-   - Your **current thesis** (one sentence) **or** bullet claims / short excerpt
-   - Optional: rubric snippet or what the instructor emphasizes
-   - Optional: draft stage (outline vs. partial vs. near-final)
+   - Your **broad idea** — bullets, messy paragraph, or early thesis that feels too big
+   - Optional: rubric snippet or instructor priorities
 
 4. **Follow the dialogue**  
-   The skill steers **4–6 turns**: clarify thesis → stakes → premises → steel-man objection → key terms/scope → **recap** in a fixed markdown shape.
+   The skill steers **4–6 turns** centered on **narrowing**: mirror breadth → choose one thread (student-generated options) → add scope fences → “book test” (still too big?) → optional stakes for the slice → **recap** showing **broad → narrow** in a fixed markdown shape.
 
 5. **If the skill doesn’t attach automatically**  
    Depending on your Cursor version, you can:
@@ -45,14 +45,10 @@ This repository holds a **Cursor Agent + Skill** prototype for a structured conv
 
 ## Tips for demos / grading
 
-- Run **two or three** sample theses (too broad, too vague, strong but thin evidence) and save **screenshots or exported chat** showing one full run through the **exit recap**.
+- Run **two or three** starting ideas (over-broad topic, theme-only claim, “three papers in one”) and save **screenshots or exported chat** showing one full run through the **narrowing recap**.
 - Keep the rule file enabled (`alwaysApply: true`) so behavior stays consistent for reviewers.
 
 ## Customizing
 
 - Edit **`SKILL.md`** to change turn count, tone, or required inputs.
 - Edit **`humanities-argument-prototype.mdc`** to relax or tighten ghostwriting guardrails for your course policy.
-
-## License / course use
-
-Adjust this section if your course requires a specific attribution or license statement.

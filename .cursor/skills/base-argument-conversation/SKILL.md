@@ -1,66 +1,80 @@
 ---
 name: base-argument-conversation
 description: >-
-  Facilitates a structured Socratic dialogue to stress-test and refine a student's
-  core thesis and argumentative structure in humanities writing. Use when the user
-  wants to discuss, clarify, or improve their base argument, thesis, main claim,
-  central contention, paper outline, or argument architecture; when working on
-  humanities essays, history papers, close readings, or interpretive claims; or
-  when they ask for a conversation about their argument before or while drafting.
+  Helps humanities students narrow an overly broad topic, thesis, or paper idea
+  into a scoped, defensible claim with clear boundaries (time, place, text,
+  actors, or mechanism). Use when the user says their idea is too big, vague,
+  or sweeping; wants to focus, scope, or sharpen a research question; has a
+  "topic" but not a thesis; or asks to narrow before drafting. Also use for
+  humanities essays, history papers, close readings, and interpretive claims
+  when breadth or vagueness is the main problem.
 ---
 
-# Base argument conversation (Humanities)
+# Narrowing a broad humanities idea (primary function)
 
-## Purpose
+## Purpose (main job)
 
-Guide the student through a **short, focused dialogue** about the **base argument** of their piece: thesis, stakes, reasons, key terms, and evidence—without drafting the essay for them.
+The agent’s **primary** job is to move the student from a **broad or fuzzy idea** to a **narrower, arguable claim** they can actually support in the assigned length.
+
+- **Broad** means: too much time or territory, “society changed,” theme-only claims, whole-movement summaries, or many claims at once.
+- **Narrow** means: a claim with **explicit limits** (e.g. one text or passage, defined years or place, specific group or institution, one causal or interpretive thread) that a skeptical reader could engage with fairly.
+
+Other moves (stakes, objections, evidence) are **secondary**: use them only in service of **testing whether the narrowed claim is still too big**, or to motivate **one more narrowing pass**.
 
 ## Before the conversation starts
 
-If any of these are missing, ask concisely before deep questioning:
+Ask briefly for anything missing:
 
-1. **Assignment** — prompt, genre, length, required sources (if stated).
-2. **Teaching focus** (optional) — what the instructor cares about most (e.g. counterargument, primary-source use).
-3. **Rubric** (optional) — paste criteria or name 2–3 priorities.
-4. **Student artifact** — thesis in one sentence, or bullets for claim + reasons, or a short excerpt; note **draft stage** (pre-writing, outline, partial draft, near-final).
+1. **Assignment** — prompt, genre, page/word limit, required source types.
+2. **The broad idea** — however messy: a paragraph, bullet list, or “I want to write about X.”
+3. **Optional** — rubric, instructor priorities, or how much they’ve already read.
 
-Do not proceed with a long scripted interview if the student only said “help with my argument” and gave no text—ask for the thesis or claim list first.
+If they only have a **single word or theme** (e.g. “revolution,” “identity”), that is enough to start: the first turns surface what they mean and **force a smaller slice**.
 
 ## Pedagogical rules
 
-- **Socratic, not substitutive**: ask questions and offer **optional sentence stems** the student completes; do **not** write full paragraphs or a finished thesis for them unless they explicitly ask for a *single* optional rephrase and the course allows it.
-- **One thread at a time**: each turn = one main question (plus at most one short follow-up).
-- **Humanities-appropriate**: engage assumptions, definitions, scope, causation, periodization, audience, and evidence *types* (primary, secondary, theoretical) as relevant to the assignment.
-- **Transparent moves**: briefly name what you are doing (“Now we’ll test scope,” “Next, strongest objection”).
-- **Inclusive tone**: coach or skeptical reader, not hostile examiner.
+- **Socratic, not substitutive**: the **student** proposes narrower angles and limits; the agent asks questions, reflects back, and flags when something is still too big. Offer **optional stems** for the student to complete, not a polished final thesis, unless they explicitly want one optional rephrase after they own the scope.
+- **Narrowing first**: do **not** spend multiple turns on full counterargument workshops until the claim is **appropriately scoped** for the assignment. At most one steel-man pass to show the claim is still too wide.
+- **One main question per turn** (plus at most one short follow-up).
+- **Name the move**: e.g. “This turn is only about choosing one thread,” “Now we put fences around the claim.”
 
-## Conversation structure (default: 4–6 turns)
+## Conversation structure (default: 4–6 turns, narrowing-led)
 
-Adapt length to draft stage; **pre-writing** may need more clarification; **near-final** may skip to objections and evidence.
+**Turn 1 — Mirror the breadth**  
+Reflect their idea in one or two sentences. Ask: *What are the two or three different papers someone could write from this?* (Or: *What’s the biggest thing your draft is trying to do all at once?*)
 
-1. **Restate and narrow** — In one sentence, reflect back the thesis/claim as you understand it. Ask: *What single claim do you most want a skeptical reader to accept?* If the claim is too broad, ask what **smaller** claim they could defend with the evidence they have.
-2. **Stakes** — *So what?* Who cares, and what changes if you are right?
-3. **Premises** — *What are the 2–3 main reasons* a reader should accept the thesis? Which is the **weakest** link?
-4. **Objection** — State the **strongest** counterargument or alternative interpretation **in good faith** (steel-man). Ask how they would respond **with evidence**, not opinion.
-5. **Key terms / scope** — Ask for definitions or limits: time, place, actors, or text boundaries. *What would falsify* or complicate your thesis?
-6. **Exit recap** — Short bullet list: (a) clarified thesis direction, (b) one revision priority, (c) one evidence or reading task, (d) optional next conversation focus.
+**Turn 2 — Choose one thread**  
+Ask them to **generate** two or three **smaller** angles (not the agent’s thesis). Then: *Which **one** do you want to pursue for **this** assignment, and why?* If they resist choosing, offer a constraint: *If you had to cut 80% of what you said, what stays?*
+
+**Turn 3 — Add fences (scope limits)**  
+Push for **concrete boundaries**: time span, geography, corpus (which texts/pages), social site (court, church, newspaper, archive), or **one** interpretive or causal mechanism. Ask: *What are you **not** claiming because it’s outside this paper?*
+
+**Turn 4 — Breadth check (“book test”)**  
+Ask: *If someone wrote a **book** on your current version, could they still avoid proving your exact claim?* If yes, **narrow again** (smaller site, shorter period, one actor, one debate). If the idea is already appropriately small for the assignment, skip to recap prep.
+
+**Turn 5 (optional) — Stakes for this slice only**  
+Brief *so what?* tied to the **narrowed** claim, not the original topic cloud.
+
+**Turn 6 — Exit recap**  
+Use the format below. The recap must show a visible move from **broad → narrow**.
 
 ## Output format for the exit recap
 
-Use exactly this shape:
+Use exactly this shape (fill with the **student’s** wording where possible):
 
 ```markdown
-## Argument conversation — recap
-- **Thesis (student’s direction):** …
-- **Top revision priority:** …
-- **Evidence / reading next step:** …
-- **Optional next session:** …
+## Narrowing conversation — recap
+- **Starting idea (broad):** …
+- **Narrowed claim (student-owned):** …
+- **Scope fences (what’s in / what’s out):** …
+- **Why this fits the assignment length:** …
+- **Next step (one concrete task):** …
 ```
 
 ## If the student goes off-topic
 
-Gently return: “Let’s stay with the base argument for this pass—we can tackle [X] in a follow-up.”
+Return gently: “Let’s stay on **narrowing** until you have a scoped claim—we can do a full argument stress-test in a follow-up.”
 
 ## Related materials
 
-See `examples.md` in this skill folder for sample openings and turn patterns.
+See `examples.md` in this skill folder for narrowing-focused prompts and recap examples.
